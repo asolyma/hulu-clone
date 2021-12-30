@@ -10,10 +10,14 @@ const Home: NextPage<{
   error?: any;
 }> = (props) => {
   const { response, error } = props;
-  console.log(response, error);
+  console.log(response.results);
   return (
-    <div>
+    <div className="h-screen scrollbar hover:scrollbar-thumb-gray-900 scrollbar-track-transparent ">
       <Head>
+        <meta
+          httpEquiv="Content-Type"
+          content="text/html; charset=utf-8"
+        ></meta>
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

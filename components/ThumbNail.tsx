@@ -19,13 +19,13 @@ const ThumbNail: React.FC<{
         src={src || ""} //we need a fallback image
       />
       <div className="p-2">
-        <p className="truncate max-w-md">{overview}</p>
+        <p className="truncate max-w-md text-gray-400">{overview}</p>
         <h2 className="mt-1 text-2xl transition-all duration-100 ease-in-out group-hover:font-bold">
           {title}
         </h2>
-        <p className="flex items-ctransitionenter opacity-0 group-hover:opacity-100">
+        <p className="flex items-center opacity-0 group-hover:opacity-100">
           {releaseDate}
-          <ThumbUpIcon className="h-5 " />
+          <ThumbUpIcon className="h-5 pl-5" />
           {voteCount}
         </p>
       </div>

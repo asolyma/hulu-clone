@@ -19,13 +19,15 @@ const Header = () => {
         <HeaderItem title={"SEARCH"} Icon={SearchIcon} />
         <HeaderItem title={"ACCOUNT"} Icon={UserIcon} />
       </div>
-      <Image
-        className="object-contain"
-        alt="hulu"
-        height={50}
-        width={100}
-        src={"/Daco_6143056.png"}
-      />
+      <div className="mr-10">
+        <Image
+          className="object-contain"
+          alt="hulu"
+          height={50}
+          width={100}
+          src={"/Daco_6143056.png"}
+        />
+      </div>
     </header>
   );
 };
