@@ -16,4 +16,6 @@ export interface Movie {
   video?: false;
   vote_average?: number;
   vote_count?: number;
+  original_name?: string;
+  name?: string;
 }

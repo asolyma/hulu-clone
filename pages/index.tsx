@@ -10,7 +10,6 @@ const Home: NextPage<{
   error?: any;
 }> = (props) => {
   const { response, error } = props;
-  console.log(response.results);
   return (
     <div className="h-screen scrollbar hover:scrollbar-thumb-gray-900 scrollbar-track-transparent ">
       <Head>
